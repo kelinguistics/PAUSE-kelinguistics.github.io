@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+
 group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll'
@@ -22,10 +23,21 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
 end
+
 group :other_plugins do
     gem 'css_parser'
     gem 'feedjira'
+<<<<<<< HEAD
     gem 'httparty'
     gem 'observer' # used by jekyll-scholar
     gem 'ostruct' # used by jekyll-twitter-plugin
+||||||| parent of aa8918e4 (Update GEmefile with specific versions for missing gems)
+    gem 'httparty'
+=======
+    gem 'httparty', '0.22.0'
+    gem 'multi_xml', '0.7.1'
+    gem 'rexml', '3.2.8'
+    gem 'bigdecimal', '3.1.8'
+    gem 'strscan', '3.1.0'
+>>>>>>> aa8918e4 (Update GEmefile with specific versions for missing gems)
 end

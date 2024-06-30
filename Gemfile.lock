@@ -265,10 +265,11 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  bigdecimal (= 3.1.8)
   classifier-reborn
   css_parser
   feedjira
-  httparty
+  httparty (= 0.22.0)
   jekyll
   jekyll-archives
   jekyll-email-protect
