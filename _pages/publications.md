@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 layout: page
 permalink: /publications/
@@ -18,3 +19,18 @@ nav_order: 3
 {% bibliography %}
 
 </div>
+||||||| parent of e40615ec (update talks)
+=======
+---
+layout: page
+permalink: /publications/
+title: publications 
+nav: true
+nav_order: 3
+---
+
+<div class="publications">
+  {% bibliography --query @*[category=article] %}
+</div>
+
+>>>>>>> e40615ec (update talks)
