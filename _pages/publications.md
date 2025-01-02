@@ -24,7 +24,7 @@ nav_order: 3
 ---
 layout: page
 permalink: /publications/
-title: publications 
+title: publications
 nav: true
 nav_order: 3
 ---
