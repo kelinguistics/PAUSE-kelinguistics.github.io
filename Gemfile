@@ -32,4 +32,6 @@ group :other_plugins do
     gem 'rexml', '3.2.8'
     gem 'bigdecimal', '3.1.8'
     gem 'strscan', '3.1.0'
+    gem 'observer' # used by jekyll-scholar
+    gem 'ostruct' # used by jekyll-twitter-plugin
 end
