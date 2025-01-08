@@ -30,7 +30,6 @@ group :other_plugins do
     gem 'httparty'
     gem 'observer' # used by jekyll-scholar
     gem 'ostruct' # used by jekyll-twitter-plugin
-    gem 'httparty', '0.22.0'
     gem 'multi_xml', '0.7.1'
     gem 'rexml', '3.2.8'
     gem 'bigdecimal', '3.1.8'
