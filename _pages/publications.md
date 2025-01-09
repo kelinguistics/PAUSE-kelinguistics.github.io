@@ -1,11 +1,12 @@
-<<<<<<< HEAD
----
+## <<<<<<< HEAD
+
 layout: page
 permalink: /publications/
 title: publications
 description: This page documents a list of my publications.
 nav: true
 nav_order: 3
+
 ---
 
 <!-- _pages/publications.md -->
@@ -31,4 +32,4 @@ nav_order: 3
   {% bibliography --query @*[category=article] %}
 </div>
 
->>>>>>> e40615ec (update talks)
+> > > > > > > e40615ec (update talks)

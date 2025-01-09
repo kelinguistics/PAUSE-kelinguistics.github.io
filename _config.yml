@@ -198,7 +198,7 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
-    
+
 news:
   enabled: true
   scrollable: true
