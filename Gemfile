@@ -19,7 +19,7 @@ group :jekyll_plugins do
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    gem 'mini_racer'
+    gem 'terser'
     gem 'unicode_utils'
     gem 'webrick'
 end
@@ -27,11 +27,5 @@ end
 group :other_plugins do
     gem 'css_parser'
     gem 'feedjira'
-    gem 'httparty', '0.22.0'
-    gem 'multi_xml', '0.7.1'
-    gem 'rexml', '3.2.8'
-    gem 'bigdecimal', '3.1.8'
-    gem 'strscan', '3.1.0'
-    gem 'observer' # used by jekyll-scholar
-    gem 'ostruct' # used by jekyll-twitter-plugin
+    gem 'httparty'
 end
