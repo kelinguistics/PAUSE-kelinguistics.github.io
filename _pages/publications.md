@@ -15,9 +15,7 @@ nav_order: 3
 {% include bib_search.liquid %}
 
 <div class="publications">
-
-{% bibliography %}
-
+  {% bibliography --query @*[category=article] %}
 </div>
 ||||||| parent of e40615ec (update talks)
 =======
